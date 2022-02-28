@@ -7,8 +7,14 @@ class MyDocument extends Document {
 
                 <Head>
                     <title>React Shop 🐱‍🏍</title>
-                    <meta charSet="utf-8" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CR125G5HJ2"></script>
+                    <script dangerouslySetInnerHTML={{
+                        __html:
+                        `window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-CR125G5HJ2');`
+                    }} />
                 </Head>
                 <body>
                     <Main />
