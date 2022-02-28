@@ -16,6 +16,6 @@ const PasswordRecovery = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default PasswordRecovery;

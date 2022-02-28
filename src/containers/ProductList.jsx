@@ -3,7 +3,7 @@ import ProductItem from '@components/ProductItem';
 import useGetProducts from '@hooks/useGetProducts';
 import styles from '@styles/ProductList.module.scss';
 
-const API = 'https://api.escuelajs.co/api/v1/products?limit=9&offset=1';
+const API = 'https://api.escuelajs.co/api/v1/products?limit=25&offset=1';
 
 const ProductList = () => {
 
@@ -18,6 +18,6 @@ const ProductList = () => {
 			</div>
 		</section>
 	);
-}
+};
 
 export default ProductList;

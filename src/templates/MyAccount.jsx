@@ -20,6 +20,6 @@ const MyAccount = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default MyAccount;

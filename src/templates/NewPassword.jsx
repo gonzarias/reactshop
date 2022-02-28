@@ -18,6 +18,6 @@ const NewPassword = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default NewPassword;

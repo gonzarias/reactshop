@@ -1,4 +1,5 @@
 import React, {useRef} from 'react';
+import Link from 'next/link';
 import '@styles/Login.scss';
 
 const Login = () => {
@@ -14,7 +15,7 @@ const Login = () => {
 			password: formData.get('password'),
 		};
 		console.log(data);
-	}
+	};
 
 	return (
 		<div className="Login">
@@ -31,7 +32,7 @@ const Login = () => {
 						onClick={handleSubmit}>
 						Log in
 					</button>
-					<a href="/">Forgot my password</a>
+					<Link href="/">Forgot my password</Link>
 				</form>
 				<button className="secondary-button signup-button" >
 					Sign up
