@@ -6,6 +6,8 @@ class MyDocument extends Document {
       <Html lang="es">
         <Head>
           <meta charSet="utf-8" />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#317EFB"/>
         </Head>
         <body>
           <Main />
